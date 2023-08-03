@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    transition:all 0.2s ease-in 0s
+}
+  
+header{
+    margin: -10px;
+    background-color: rgb(77, 77, 77);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.navigate{
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+}
+.navigate h1,a{
+    color: white;
+    margin-top:0px;
+}
+.navigate h1{
+    align-items: center;
+    height: fit-content;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.navigate a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    margin-top: 0px;
+    text-transform: capitalize;
+    text-align: center;;
+}
+.navigate a:hover{
+    background-color: rgb(31, 31, 31);
+    opacity: 0.7;
+}
+.navigate a p {
+    margin-top: 0px;
+    line-height: 60px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1,.h2,.p{
+    color: rgb(90, 90, 90);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top h1{
+    font-size: 70px;
+}
+.h1 span{
+    color: rgb(114, 133, 6);
+}
+.top h2{
+    margin-top: -20px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 1;
+    letter-spacing: 15px;
+}
+.top div{
+    width: 300px;
+    height: 300px;
+    border: 10px solid rgb(90, 90, 90);
+    border-radius: 50%;
+    background-image: url("images/pp.jpg");
+    background-size: 100px;
+}
+.middle{
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: rgb(204, 204, 204);
+}
+.middle h2, .middle p{
+    text-transform: capitalize;
+}
+.middle p {
+    text-align: center;
+    width: 1000px;
+}
+.proyek-contoh div{
+    display: flex-box;
+    flex-direction: row;
+
+}
+.proyek-contoh{
+    height: 500px;
+}
+.proyek-contoh div img{
+    width: 300px;
+    margin-left: 50px;
+    box-shadow: 10px 10px rgb(0, 0, 0, 0.2)
+}
+.proyek-contoh div img:hover{
+    box-shadow: none;
+    width: 280px;
+}
+
+.hubungi{
+    background-color: rgb(223, 223, 171);
+    padding: 20px;
+}
+.hubungi input,textarea{
+    width: 1000px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 10px;
+    max-width: 1000px;
+}
+.hubungi input{
+    height: 55px;
+}
+.hubungi textarea{
+    height: 80px;
+}
+.hubungi .button{
+    width: 700px;
+    height: 50px;
+    background-color: rgb(218, 228, 128);
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    align-items: center;
+    text-align: center;
+}
+.hubungi .button:hover{
+    background-color: rgb(247, 180, 93);
+    color: aliceblue;
+        
+}
+footer{
+    padding: 50px;
+    background-color: rgb(77, 77, 77);
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+footer h1{
+    float: left;
+    margin-top: -25px;
+
+}
+footer div{
+    float: right;
+  
+    
+   
+}
+footer div a{
+    text-decoration: none;
+}
